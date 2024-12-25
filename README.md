@@ -27,15 +27,19 @@ Dataset yang digunakan dalam proyek ini tersedia di [Medical Transcription Instr
 
 Namun, untuk proyek ini, hanya digunakan 9 label dari kolom `medical_speciality` yang aslinya berjumlah 40 label. Berikut adalah label yang dipilih:
 
-- Neurology
-- Neurosurgery
-- Obstetrics Gynecology
-- Ophthalmology
-- Orthopedic
-- Pain Management
-- Pediatrics Neonatal
-- Radiology
-- Surgery
+   - Neurology
+   - Neurosurgery
+   - Obstetrics Gynecology
+   - Ophthalmology
+   - Orthopedic
+   - Pain Management
+   - Pediatrics Neonatal
+   - Radiology
+   - Surgery
+
+Label :
+![image](https://github.com/user-attachments/assets/1066da68-7702-4caf-94f3-c0be87ac9977)
+
   
 ## Deskripsi Model
 Proyek ini menggunakan dua model utama:
@@ -48,18 +52,28 @@ Proyek ini menggunakan dua model utama:
 2. **IndoBERT**
    - Model ini adalah varian BERT yang dirancang untuk bahasa Indonesia.
    - Menggunakan transfer learning untuk memanfaatkan pengetahuan yang sudah ada dari pretraining.
+     Berikut arsitektur yang dipakai :
+     ![image](https://github.com/user-attachments/assets/03737ebb-9958-45e1-a17a-5d2b36957ea6)
+
 
 
 ## Hasil Training
+Masing-masing model dilatih dengan 10 epoch
 1. **Bi-LSTM (Bidirectional Long Short-Term Memory)**
-   Grafik akurasi dan loss :
+   - Grafik akurasi dan loss :
    ![image](https://github.com/user-attachments/assets/36864484-a695-46f3-931c-63a852f24ab4)
+   - Classification Report :
+   ![image](https://github.com/user-attachments/assets/aff91e4e-46d1-4d46-bad9-2aa23729aafa)
 
 
 3. **IndoBERT**
-   - Model ini adalah varian BERT yang dirancang untuk bahasa Indonesia.
-   - Menggunakan transfer learning untuk memanfaatkan pengetahuan yang sudah ada dari pretraining.
+   - Grafik akurasi dan loss :
+     ![image](https://github.com/user-attachments/assets/a74c4b3e-fe14-4fb0-a490-9334f78c437b)
+   - Classification Report :
+     ![image](https://github.com/user-attachments/assets/e1c4973f-6697-487f-a72b-b62f924c3257)
 
+## Author
+**Muhammad Dhafa Maulana (202110370311100)**
 
 
 
