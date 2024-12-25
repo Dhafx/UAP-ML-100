@@ -1,7 +1,9 @@
 # Klasifikasi Spesialisasi Medis Berdasarkan Transkripsi
 Ujian Akhir Praktikum Machine Learning
 
-##Link Deployment = https://uap-ml-100-oeoclrtazm5ygyf2jjn8an.streamlit.app/
+## Link Live Demo
+Aplikasi web yang telah di-deploy dapat diakses melalui tautan berikut: [Live Demo](https://uap-ml-100-oeoclrtazm5ygyf2jjn8an.streamlit.app/)
+
 
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk mengembangkan model klasifikasi teks yang dapat menentukan spesialisasi medis berdasarkan transkripsi. Latar belakang pengembangan ini adalah kebutuhan untuk mengotomatisasi proses identifikasi spesialisasi medis dari teks transkripsi guna mendukung efisiensi dalam pengelolaan data medis. Model yang dikembangkan diharapkan mampu membantu profesional medis dalam menganalisis dan mengelompokkan data transkripsi secara lebih cepat dan akurat.
@@ -58,8 +60,6 @@ Proyek ini menggunakan dua model utama:
    - Model ini adalah varian BERT yang dirancang untuk bahasa Indonesia.
    - Menggunakan transfer learning untuk memanfaatkan pengetahuan yang sudah ada dari pretraining.
 
-## Link Live Demo
 
-Aplikasi web yang telah di-deploy dapat diakses melalui tautan berikut: [Live Demo](#)
 
 
