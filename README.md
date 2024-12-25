@@ -49,10 +49,10 @@ Proyek ini menggunakan dua model utama:
    - Arsitektur Bi-LSTM dirancang untuk menangkap hubungan dependensi dalam data teks dari kedua arah (forward dan backward).
    Berikut arsitektur yang dipakai :
 
-   ![image](https://github.com/user-attachments/assets/83b5860a-b3f6-457a-a587-7cff40c57ef2)
+   ![image](https://github.com/user-attachments/assets/aadfe2e2-2edf-4ee0-9901-d14733d9c254)
+
 
 2. **IndoBERT**
-   - Model ini adalah varian BERT yang dirancang untuk bahasa Indonesia.
    - Menggunakan transfer learning untuk memanfaatkan pengetahuan yang sudah ada dari pretraining.
      Berikut arsitektur yang dipakai :
      
