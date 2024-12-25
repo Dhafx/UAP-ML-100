@@ -9,8 +9,8 @@ import joblib
 
 @st.cache_resource
 def load_resources():
-    bilstm_model = tf.keras.models.load_model('model\\BiLSTM.h5')
-    bilstm_tokenizer = joblib.load('model\\tokenizerbi.joblib')
+    bilstm_model = tf.keras.models.load_model("./model/BiLSTM.h5")
+    bilstm_tokenizer = joblib.load(".model/tokenizerbi.joblib")
     bert_model = TFBertForSequenceClassification.from_pretrained("dhafx/mybert")
     bert_tokenizer = BertTokenizer.from_pretrained("dhafx/mybert")
 
