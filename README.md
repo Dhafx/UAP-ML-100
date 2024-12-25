@@ -71,7 +71,7 @@ Masing-masing model dilatih dengan 10 epoch
    ![image](https://github.com/user-attachments/assets/aff91e4e-46d1-4d46-bad9-2aa23729aafa)
 
 
-3. **IndoBERT**
+3. **BERT**
    - Grafik akurasi dan loss :
      
      ![image](https://github.com/user-attachments/assets/a74c4b3e-fe14-4fb0-a490-9334f78c437b)
